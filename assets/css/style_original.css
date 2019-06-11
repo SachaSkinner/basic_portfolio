@@ -3,7 +3,7 @@ body {
 }
 header {
     
-    
+    height: 79px;
     margin-top: 0;
     margin-left: auto;
     margin-right: auto;
@@ -18,26 +18,36 @@ header {
     
 
 }
-
 #nav-right {
     margin-left: auto;
-}
-#name {
-    box-sizing: border-box;
-    left: 0;
-}
-.pages {
+    float: left;
+    /* position: absolute; */
     display: inline-block;
+
 }
+
+
+
+#name {
+    
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    float: left;
+    
+
+}
+
 
 h5 {
     background-color: green;
-    float: left;
+    /* float: left; */
     padding: 30px;
     box-sizing: border-box;
-    margin-bottom: 0;
+    margin:0;
     text-align: center;
     clear: both;
+    display: inline-block;
    
     
     
