@@ -70,3 +70,10 @@ footer {
     
 
 }
+.titles {
+    width: 200px;
+    height: 30px;
+    color: white;
+    background-color:  rgb(33, 160, 132);
+    position: absolute;
+}
