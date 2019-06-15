@@ -1,17 +1,19 @@
 body {
     background: url("../images/scribble_light.png");
-    margin: 0;    
+    margin: 0; 
+
 }
 
 .main {
     height: 500px;
+    
 }
 
 #header-bg {
     background-color: white;
     /* width: 100%; */
     border-bottom: 3px solid grey;
-    height: 76px;
+    height: 78px;
 }
 
 header {
@@ -59,8 +61,12 @@ h5 {
     margin:0;
     text-align: center;
     clear: both;
-    display: inline-block;    
+    display: inline-block;   
+   
 }
+h5:hover {
+    background-color: rgb(198, 243, 235);
+  } 
 
 section {
     height: 500;
@@ -143,4 +149,21 @@ p, h2, h5 {
 }
 a {
     text-decoration: none;
+}
+.left {
+    float: left;
+}
+h3 {
+    clear: both;
+}
+#picture {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+p {
+   font-size: 20px;
+}
+#submit {
+    height: 35px;
+    width: 80px;
 }
