@@ -1,17 +1,14 @@
 body {
-    background: url("../images/scribble_light.png");
+    /* background: url("../images/scribble_light.png"); */
+    background: url("../images/my-desk.jpg");
     margin: 0; 
 
 }
 
-.main {
-    height: 500px;
-    
-}
 
 #header-bg {
-    background-color: white;
-    /* width: 100%; */
+    background-color:rgb(235, 235, 139);
+   
     border-bottom: 3px solid grey;
     height: 78px;
 }
@@ -27,18 +24,16 @@ header {
     justify-content: center;
     box-sizing: border-box;
     width: 960px;
-    /* width: 100%;
-    background-color: white; */
+
     
     position: relative;
-    /* background-color: aliceblue; */
+  
 }
 
 #nav-right {
     margin-left: auto;
     float: left;
-    /* position: absolute; */
-    /* display: inline-block; */
+   
 
 }
 
@@ -47,17 +42,34 @@ header {
     box-sizing: border-box;
     position: absolute;
     left: 0;
-    float: left;
-    background-color: rgb(33, 160, 132);
-    color: white;
+    margin-right: 50px;
+  
+    background-color: rgb(229, 231, 79);
+    color: rgb(71, 67, 71);
+    padding: 29px;
+    padding-top: 5px;
+    padding-bottom: 0;
+    font-size: 45px;
+    font-family: 'Monoton', cursive;
+  
+    margin:0;
+    text-align: center;
+    clear: both;
+    display: inline-block; 
+    border-radius: 3px;
+    opacity: 0.8;
+}
+h6 {
+    font-family: 'Monoton', cursive;
+
 }
 
 h5 {
-    /* background-color:white; */
+ 
     color: gray;
-    /* float: left; */
+   
     padding: 30px;
-    /* box-sizing: border-box; */
+  
     margin:0;
     text-align: center;
     clear: both;
@@ -65,21 +77,25 @@ h5 {
    
 }
 h5:hover {
-    background-color: rgb(198, 243, 235);
+    background-color: rgb(243, 245, 153);
   } 
 
 section {
-    height: 500;
+  
     width: 960px;
     background-color: white;
+   
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
     padding: 30px;
-    box-sizing: border-box;
+    box-sizing: flex;
     margin-bottom: 50px;
-    padding-bottom: 250px;
     border: 1px ridge rgb(182, 174, 174);
+    height: 650px;
+    border-radius: 10px;
+    opacity: 0.9;
+   
 
 }
 
@@ -90,32 +106,25 @@ footer {
     background-color: black;
     color: aliceblue;
     text-align: center;
-    /* padding: 5px; */
+   
     padding-bottom: 10px;
     margin-bottom: 0;
-    border-top: 3px;
-    border-top-color: green;
+    border-top: 2px;
+  
+    border-top-color:rgb(87, 73, 64);
+  
     border-top-style: solid;
     
 
 }
 
 #images {
-    width: 100%;
+   
     text-align: center;
-
     display: flex;
     justify-content: space-between;
 }
 
-.item {
-    /* width: 200px; */
-    /* height: 30px; */
-    /* color: white; */
-    /* background-color:  rgb(33, 160, 132); */
-    /* position: absolute; */
-    /* text-align: center;  */
-}
 
 .picture-text {
     position: relative;
@@ -124,8 +133,8 @@ footer {
     height: 40px;
     line-height: 40px;
     opacity: 0.9;
-    background-color:  rgb(33, 160, 132);
-    color: white;
+    background-color:  rgb(229, 231, 79);
+    color: rgb(91, 7, 94);
     text-align: center;
 }
 #submit {
@@ -166,4 +175,21 @@ p {
 #submit {
     height: 35px;
     width: 80px;
+}
+.train {
+    margin-right: 50px;
+    margin-left: 230px;
+}
+.picture-new {
+    border-radius: 10px;
+}
+.round {
+    border-radius: 3px;
+   
+}
+#submit {
+    background-color:  rgb(229, 231, 79);
+    border-radius: 3px;
+    color: black;
+
 }
